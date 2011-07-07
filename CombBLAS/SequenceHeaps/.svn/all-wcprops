@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/kdt/!svn/ver/438/trunk/CombBLAS/SequenceHeaps
+END
+multiMergeUnrolled.C
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/kdt/!svn/ver/438/trunk/CombBLAS/SequenceHeaps/multiMergeUnrolled.C
+END
+heap-CLR.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/kdt/!svn/ver/12/trunk/CombBLAS/SequenceHeaps/heap-CLR.h
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/kdt/!svn/ver/438/trunk/CombBLAS/SequenceHeaps/util.h
+END
+heap2.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/kdt/!svn/ver/12/trunk/CombBLAS/SequenceHeaps/heap2.h
+END
+heap4.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/kdt/!svn/ver/12/trunk/CombBLAS/SequenceHeaps/heap4.h
+END
+hold.C
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/kdt/!svn/ver/12/trunk/CombBLAS/SequenceHeaps/hold.C
+END
+knheap.C
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/kdt/!svn/ver/12/trunk/CombBLAS/SequenceHeaps/knheap.C
+END
+knwiggle.C
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/kdt/!svn/ver/12/trunk/CombBLAS/SequenceHeaps/knwiggle.C
+END
+knupdown3.C
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/kdt/!svn/ver/12/trunk/CombBLAS/SequenceHeaps/knupdown3.C
+END
+knheap.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/kdt/!svn/ver/12/trunk/CombBLAS/SequenceHeaps/knheap.h
+END

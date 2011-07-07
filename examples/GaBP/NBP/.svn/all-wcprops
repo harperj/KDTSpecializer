@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/NBP
+END
+LDLC_example.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/NBP/LDLC_example.m
+END
+CS_small_testing.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/NBP/CS_small_testing.m
+END
+verify_pdf.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/NBP/verify_pdf.m
+END
+NBP.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/NBP/NBP.m
+END
+CS_example.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/NBP/CS_example.m
+END
+H_N_121_d_3_1.mat
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/NBP/H_N_121_d_3_1.mat
+END
+H_N_961_d_7.mat
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/NBP/H_N_961_d_7.mat
+END
+LDLC_small_example.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/NBP/LDLC_small_example.m
+END
+NBP_opt.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/NBP/NBP_opt.m
+END
+LDLC_large_example.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/NBP/LDLC_large_example.m
+END

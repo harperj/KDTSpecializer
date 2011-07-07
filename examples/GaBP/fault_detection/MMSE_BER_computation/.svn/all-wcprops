@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/fault_detection/MMSE_BER_computation
+END
+constraint.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/fault_detection/MMSE_BER_computation/constraint.m
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/fault_detection/MMSE_BER_computation/main.m
+END
+IfNotFound.quadgk.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/fault_detection/MMSE_BER_computation/IfNotFound.quadgk.m
+END
+ber.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/fault_detection/MMSE_BER_computation/ber.m
+END
+efficiency_db.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/fault_detection/MMSE_BER_computation/efficiency_db.m
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/fault_detection/MMSE_BER_computation/readme.txt
+END
+mmse.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/fault_detection/MMSE_BER_computation/mmse.m
+END

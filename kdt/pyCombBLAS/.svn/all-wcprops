@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/kdt/!svn/ver/813/trunk/kdt/pyCombBLAS
+END
+script1024_hop
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/kdt/!svn/ver/740/trunk/kdt/pyCombBLAS/script1024_hop
+END
+pySpParMat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/kdt/!svn/ver/812/trunk/kdt/pyCombBLAS/pySpParMat.cpp
+END
+pyCombBLAS.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/kdt/!svn/ver/748/trunk/kdt/pyCombBLAS/pyCombBLAS.h
+END
+pySpParVec.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/kdt/!svn/ver/687/trunk/kdt/pyCombBLAS/pySpParVec.h
+END
+pyOperations.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/kdt/!svn/ver/812/trunk/kdt/pyCombBLAS/pyOperations.h
+END
+pyCombBLAS.i
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/kdt/!svn/ver/812/trunk/kdt/pyCombBLAS/pyCombBLAS.i
+END
+pyCombBLAS.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/kdt/!svn/ver/810/trunk/kdt/pyCombBLAS/pyCombBLAS.py
+END
+pyObjDenseParVec.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/kdt/!svn/ver/713/trunk/kdt/pyCombBLAS/pyObjDenseParVec.cpp
+END
+Makefile-nersc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/kdt/!svn/ver/740/trunk/kdt/pyCombBLAS/Makefile-nersc
+END
+pySpParMat.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/kdt/!svn/ver/812/trunk/kdt/pyCombBLAS/pySpParMat.h
+END
+pyDenseParVec.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/kdt/!svn/ver/635/trunk/kdt/pyCombBLAS/pyDenseParVec.cpp
+END
+pyObjDenseParVec.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/kdt/!svn/ver/713/trunk/kdt/pyCombBLAS/pyObjDenseParVec.h
+END
+Makefile-triton
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/kdt/!svn/ver/635/trunk/kdt/pyCombBLAS/Makefile-triton
+END
+testscript.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/kdt/!svn/ver/651/trunk/kdt/pyCombBLAS/testscript.py
+END
+pySpParMatBool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/kdt/!svn/ver/784/trunk/kdt/pyCombBLAS/pySpParMatBool.cpp
+END
+pyDenseParVec.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/kdt/!svn/ver/687/trunk/kdt/pyCombBLAS/pyDenseParVec.h
+END
+pyCombBLAS.i.templ
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/kdt/!svn/ver/713/trunk/kdt/pyCombBLAS/pyCombBLAS.i.templ
+END
+pySpParMatBool.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/kdt/!svn/ver/784/trunk/kdt/pyCombBLAS/pySpParMatBool.h
+END
+pyCombBLAS_wrap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/kdt/!svn/ver/812/trunk/kdt/pyCombBLAS/pyCombBLAS_wrap.cpp
+END
+doubleint.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/kdt/!svn/ver/635/trunk/kdt/pyCombBLAS/doubleint.h
+END
+pyCombBLAS.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/kdt/!svn/ver/696/trunk/kdt/pyCombBLAS/pyCombBLAS.cpp
+END
+Makefile-neumann
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/kdt/!svn/ver/748/trunk/kdt/pyCombBLAS/Makefile-neumann
+END
+makei.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/kdt/!svn/ver/508/trunk/kdt/pyCombBLAS/makei.py
+END
+pyOperations.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/kdt/!svn/ver/813/trunk/kdt/pyCombBLAS/pyOperations.cpp
+END
+pySpParVec.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/kdt/!svn/ver/635/trunk/kdt/pyCombBLAS/pySpParVec.cpp
+END
+Makefile-dist
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/kdt/!svn/ver/648/trunk/kdt/pyCombBLAS/Makefile-dist
+END

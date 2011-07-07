@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/kdt/!svn/ver/389/trunk/CombBLAS/psort-1.0/driver
+END
+psort_bench.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/kdt/!svn/ver/216/trunk/CombBLAS/psort-1.0/driver/psort_bench.sh
+END
+MersenneTwister.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/kdt/!svn/ver/216/trunk/CombBLAS/psort-1.0/driver/MersenneTwister.h
+END
+Make.inc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/kdt/!svn/ver/216/trunk/CombBLAS/psort-1.0/driver/Make.inc
+END
+psort_driver.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/kdt/!svn/ver/389/trunk/CombBLAS/psort-1.0/driver/psort_driver.cc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/kdt/!svn/ver/216/trunk/CombBLAS/psort-1.0/driver/Makefile
+END

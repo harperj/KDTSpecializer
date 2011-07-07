@@ -1,0 +1,383 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18
+END
+169cores_b256_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/169cores_b256_tile4.out
+END
+25cores_b512_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/25cores_b512_tile4.out
+END
+289cores_b256_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/289cores_b256_tile4.out
+END
+361cores_b1024_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/361cores_b1024_tile4.out
+END
+64cores_b512_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/64cores_b512_tile4.out
+END
+256cores_b1024_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/256cores_b1024_tile4.out
+END
+25cores_b256_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/25cores_b256_tile4.out
+END
+64cores_b256_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/64cores_b256_tile4.out
+END
+400cores_b1024_tile4.app13
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/400cores_b1024_tile4.app13
+END
+16cores_b1024_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/16cores_b1024_tile4.out
+END
+36cores_b1024_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/36cores_b1024_tile4.out
+END
+256cores_b1024_tile4.app13
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/256cores_b1024_tile4.app13
+END
+4cores_b256_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/4cores_b256_tile4.out
+END
+64cores_b1024_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/64cores_b1024_tile4.out
+END
+9cores_b512_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/9cores_b512_tile4.out
+END
+484cores_b1024_tile4.app13
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/484cores_b1024_tile4.app13
+END
+256cores_b512_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/256cores_b512_tile4.out
+END
+9cores_b256_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/9cores_b256_tile4.out
+END
+100cores_b1024_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/100cores_b1024_tile4.out
+END
+256cores_b256_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/256cores_b256_tile4.out
+END
+225cores_b1024_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/225cores_b1024_tile4.out
+END
+144cores_b1024_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/144cores_b1024_tile4.out
+END
+36cores_b512_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/36cores_b512_tile4.out
+END
+36cores_b256_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/36cores_b256_tile4.out
+END
+196cores_b1024_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/196cores_b1024_tile4.out
+END
+100cores_b512_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/100cores_b512_tile4.out
+END
+289cores_b1024_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/289cores_b1024_tile4.out
+END
+100cores_b256_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/100cores_b256_tile4.out
+END
+25cores_b1024_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/25cores_b1024_tile4.out
+END
+81cores_b1024_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/81cores_b1024_tile4.out
+END
+144cores_b512_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/144cores_b512_tile4.out
+END
+225cores_b512_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/225cores_b512_tile4.out
+END
+144cores_b256_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/144cores_b256_tile4.out
+END
+225cores_b256_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/225cores_b256_tile4.out
+END
+289cores_b1024_tile4.app13
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/289cores_b1024_tile4.app13
+END
+121cores_b1024_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/121cores_b1024_tile4.out
+END
+81cores_b512_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/81cores_b512_tile4.out
+END
+49cores_b512_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/49cores_b512_tile4.out
+END
+81cores_b256_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/81cores_b256_tile4.out
+END
+484cores_b1024_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/484cores_b1024_tile4.out
+END
+169cores_b1024_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/169cores_b1024_tile4.out
+END
+49cores_b256_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/49cores_b256_tile4.out
+END
+361cores_b1024_tile4.app13
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/361cores_b1024_tile4.app13
+END
+196cores_b512_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/196cores_b512_tile4.out
+END
+196cores_b256_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/196cores_b256_tile4.out
+END
+16cores_b512_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/16cores_b512_tile4.out
+END
+441cores_b1024_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/441cores_b1024_tile4.out
+END
+16cores_b256_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/16cores_b256_tile4.out
+END
+400cores_b512_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/400cores_b512_tile4.out
+END
+121cores_b512_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/121cores_b512_tile4.out
+END
+441cores_b1024_tile4.app13
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/441cores_b1024_tile4.app13
+END
+324cores_b1024_tile4.app13
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/324cores_b1024_tile4.app13
+END
+441cores_b512_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/441cores_b512_tile4.out
+END
+400cores_b256_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/400cores_b256_tile4.out
+END
+324cores_b512_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/324cores_b512_tile4.out
+END
+121cores_b256_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/121cores_b256_tile4.out
+END
+361cores_b512_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/361cores_b512_tile4.out
+END
+441cores_b256_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/441cores_b256_tile4.out
+END
+324cores_b256_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/324cores_b256_tile4.out
+END
+361cores_b256_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/361cores_b256_tile4.out
+END
+484cores_b512_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/484cores_b512_tile4.out
+END
+169cores_b512_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/151/trunk/CombBLAS/bc-runtimes/SCALE18/169cores_b512_tile4.out
+END
+289cores_b512_tile4.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE18/289cores_b512_tile4.out
+END

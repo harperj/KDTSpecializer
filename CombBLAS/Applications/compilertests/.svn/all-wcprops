@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/kdt/!svn/ver/161/trunk/CombBLAS/Applications/compilertests
+END
+icc10.1-ipo-btwcent441
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/kdt/!svn/ver/161/trunk/CombBLAS/Applications/compilertests/icc10.1-ipo-btwcent441
+END
+icc10.1-btwcent169
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/kdt/!svn/ver/161/trunk/CombBLAS/Applications/compilertests/icc10.1-btwcent169
+END
+gcc4.4-btwcent169
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/kdt/!svn/ver/161/trunk/CombBLAS/Applications/compilertests/gcc4.4-btwcent169
+END
+gcc4.4-btwcent441-approx12
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/kdt/!svn/ver/161/trunk/CombBLAS/Applications/compilertests/gcc4.4-btwcent441-approx12
+END
+gcc4.4-btwcent441-approx13
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/kdt/!svn/ver/161/trunk/CombBLAS/Applications/compilertests/gcc4.4-btwcent441-approx13
+END
+gcc4.4-btwcent64-approx12
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/kdt/!svn/ver/161/trunk/CombBLAS/Applications/compilertests/gcc4.4-btwcent64-approx12
+END
+icc10.1-btwcent441
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/kdt/!svn/ver/161/trunk/CombBLAS/Applications/compilertests/icc10.1-btwcent441
+END
+icc10.1-btwcent64
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/kdt/!svn/ver/161/trunk/CombBLAS/Applications/compilertests/icc10.1-btwcent64
+END

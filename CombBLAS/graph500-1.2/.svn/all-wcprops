@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/kdt/!svn/ver/708/trunk/CombBLAS/graph500-1.2
+END
+options.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/options.h
+END
+rmat.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/rmat.c
+END
+verify.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/verify.c
+END
+prng.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/prng.c
+END
+Graph500.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/Graph500.html
+END
+rmat.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/rmat.h
+END
+verify.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/verify.h
+END
+prng.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/prng.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/README
+END
+timer.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/timer.c
+END
+xalloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/xalloc.c
+END
+kronecker.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/kronecker.c
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/.gitignore
+END
+timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/timer.h
+END
+graph500.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/graph500.c
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/COPYING
+END
+xalloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/xalloc.h
+END
+kronecker.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/kronecker.h
+END
+compat.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/compat.h
+END
+options.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/options.c
+END
+Graph500.org
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/Graph500.org
+END
+graph500.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/graph500.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/Makefile
+END

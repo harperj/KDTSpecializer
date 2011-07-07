@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/kdt/!svn/ver/862/trunk/CombBLAS/psort-1.0/src
+END
+funnel.timpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/kdt/!svn/ver/216/trunk/CombBLAS/psort-1.0/src/funnel.timpl.h
+END
+psort_alltoall.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/kdt/!svn/ver/389/trunk/CombBLAS/psort-1.0/src/psort_alltoall.h
+END
+sort.timpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/kdt/!svn/ver/216/trunk/CombBLAS/psort-1.0/src/sort.timpl.h
+END
+psort_samplesort.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/kdt/!svn/ver/389/trunk/CombBLAS/psort-1.0/src/psort_samplesort.h
+END
+psort_splitters.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/kdt/!svn/ver/389/trunk/CombBLAS/psort-1.0/src/psort_splitters.h
+END
+psort_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/kdt/!svn/ver/389/trunk/CombBLAS/psort-1.0/src/psort_util.h
+END
+psort_merge.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/kdt/!svn/ver/389/trunk/CombBLAS/psort-1.0/src/psort_merge.h
+END
+funnel.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/kdt/!svn/ver/216/trunk/CombBLAS/psort-1.0/src/funnel.h
+END
+psort.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/kdt/!svn/ver/862/trunk/CombBLAS/psort-1.0/src/psort.h
+END
+psort_seqsort.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/kdt/!svn/ver/389/trunk/CombBLAS/psort-1.0/src/psort_seqsort.h
+END
+sort.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/kdt/!svn/ver/216/trunk/CombBLAS/psort-1.0/src/sort.h
+END

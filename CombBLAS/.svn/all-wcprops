@@ -1,0 +1,347 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/kdt/!svn/ver/941/trunk/CombBLAS
+END
+DenseParVec.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/kdt/!svn/ver/862/trunk/CombBLAS/DenseParVec.cpp
+END
+Friends.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/kdt/!svn/ver/862/trunk/CombBLAS/Friends.h
+END
+CommGrid.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/kdt/!svn/ver/862/trunk/CombBLAS/CommGrid.cpp
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/kdt/!svn/ver/185/trunk/CombBLAS/Doxyfile
+END
+Exception.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/kdt/!svn/ver/862/trunk/CombBLAS/Exception.h
+END
+DenseParMat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/kdt/!svn/ver/862/trunk/CombBLAS/DenseParMat.cpp
+END
+HeapEntry.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/kdt/!svn/ver/50/trunk/CombBLAS/HeapEntry.h
+END
+Semirings.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/kdt/!svn/ver/725/trunk/CombBLAS/Semirings.h
+END
+MemoryPool.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/kdt/!svn/ver/479/trunk/CombBLAS/MemoryPool.h
+END
+SpDCCols.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/kdt/!svn/ver/748/trunk/CombBLAS/SpDCCols.cpp
+END
+Isect.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/kdt/!svn/ver/438/trunk/CombBLAS/Isect.h
+END
+FullyDistVec.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/kdt/!svn/ver/941/trunk/CombBLAS/FullyDistVec.cpp
+END
+RefGen21.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/kdt/!svn/ver/740/trunk/CombBLAS/RefGen21.h
+END
+FullyDistSpVec.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/kdt/!svn/ver/862/trunk/CombBLAS/FullyDistSpVec.cpp
+END
+dcsc.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/kdt/!svn/ver/862/trunk/CombBLAS/dcsc.h
+END
+DistEdgeList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/kdt/!svn/ver/862/trunk/CombBLAS/DistEdgeList.cpp
+END
+SpTuples.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/kdt/!svn/ver/702/trunk/CombBLAS/SpTuples.h
+END
+CombBLAS.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/kdt/!svn/ver/748/trunk/CombBLAS/CombBLAS.h
+END
+SpParVec.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/kdt/!svn/ver/702/trunk/CombBLAS/SpParVec.h
+END
+SpMat.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/kdt/!svn/ver/637/trunk/CombBLAS/SpMat.h
+END
+SpParHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/kdt/!svn/ver/877/trunk/CombBLAS/SpParHelper.h
+END
+VecIterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/kdt/!svn/ver/748/trunk/CombBLAS/VecIterator.h
+END
+SpParMat.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/kdt/!svn/ver/740/trunk/CombBLAS/SpParMat.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/kdt/!svn/ver/774/trunk/CombBLAS/CMakeLists.txt
+END
+MPIType.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/kdt/!svn/ver/257/trunk/CombBLAS/MPIType.h
+END
+ParFriends.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/kdt/!svn/ver/774/trunk/CombBLAS/ParFriends.h
+END
+MemoryPool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/kdt/!svn/ver/479/trunk/CombBLAS/MemoryPool.cpp
+END
+OptBuf.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/kdt/!svn/ver/668/trunk/CombBLAS/OptBuf.h
+END
+DenseParVec.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/kdt/!svn/ver/862/trunk/CombBLAS/DenseParVec.h
+END
+CommGrid.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/kdt/!svn/ver/862/trunk/CombBLAS/CommGrid.h
+END
+DenseParMat.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/kdt/!svn/ver/862/trunk/CombBLAS/DenseParMat.h
+END
+SpImpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/kdt/!svn/ver/681/trunk/CombBLAS/SpImpl.h
+END
+dcsc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/kdt/!svn/ver/862/trunk/CombBLAS/dcsc.cpp
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/kdt/!svn/ver/549/trunk/CombBLAS/README
+END
+valgrindout
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/kdt/!svn/ver/112/trunk/CombBLAS/valgrindout
+END
+SpTuples.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/kdt/!svn/ver/702/trunk/CombBLAS/SpTuples.cpp
+END
+SpDCCols.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/kdt/!svn/ver/708/trunk/CombBLAS/SpDCCols.h
+END
+FullyDistVec.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/kdt/!svn/ver/862/trunk/CombBLAS/FullyDistVec.h
+END
+SpParVec.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/kdt/!svn/ver/702/trunk/CombBLAS/SpParVec.cpp
+END
+SpMat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/kdt/!svn/ver/637/trunk/CombBLAS/SpMat.cpp
+END
+FullyDist.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/kdt/!svn/ver/862/trunk/CombBLAS/FullyDist.h
+END
+FullyDistSpVec.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/kdt/!svn/ver/862/trunk/CombBLAS/FullyDistSpVec.h
+END
+SpParHelper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/kdt/!svn/ver/877/trunk/CombBLAS/SpParHelper.cpp
+END
+MainPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/kdt/!svn/ver/862/trunk/CombBLAS/MainPage.h
+END
+SpParMat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/kdt/!svn/ver/774/trunk/CombBLAS/SpParMat.cpp
+END
+VecIterator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/kdt/!svn/ver/691/trunk/CombBLAS/VecIterator.cpp
+END
+SpHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/kdt/!svn/ver/588/trunk/CombBLAS/SpHelper.h
+END
+LocArr.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/kdt/!svn/ver/59/trunk/CombBLAS/LocArr.h
+END
+MPIType.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/kdt/!svn/ver/390/trunk/CombBLAS/MPIType.cpp
+END
+Operations.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/kdt/!svn/ver/438/trunk/CombBLAS/Operations.h
+END
+DistEdgeList.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/kdt/!svn/ver/862/trunk/CombBLAS/DistEdgeList.h
+END
+SpDefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/kdt/!svn/ver/774/trunk/CombBLAS/SpDefs.h
+END
+Deleter.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/kdt/!svn/ver/862/trunk/CombBLAS/Deleter.h
+END
+promote.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/kdt/!svn/ver/389/trunk/CombBLAS/promote.h
+END
+Compare.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/kdt/!svn/ver/862/trunk/CombBLAS/Compare.h
+END
+StackEntry.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/kdt/!svn/ver/12/trunk/CombBLAS/StackEntry.h
+END
+MMmul.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/kdt/!svn/ver/12/trunk/CombBLAS/MMmul.h
+END

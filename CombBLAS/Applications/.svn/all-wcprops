@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/kdt/!svn/ver/941/trunk/CombBLAS/Applications
+END
+torus.mtx
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/kdt/!svn/ver/491/trunk/CombBLAS/Applications/torus.mtx
+END
+matrixA.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/kdt/!svn/ver/125/trunk/CombBLAS/Applications/matrixA.txt
+END
+matrixB.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/kdt/!svn/ver/125/trunk/CombBLAS/Applications/matrixB.txt
+END
+makefile-nersc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/kdt/!svn/ver/717/trunk/CombBLAS/Applications/makefile-nersc
+END
+prof_p25_64iters_scale21
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/370/trunk/CombBLAS/Applications/prof_p25_64iters_scale21
+END
+graph_p25_singleiter_scale21
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/kdt/!svn/ver/370/trunk/CombBLAS/Applications/graph_p25_singleiter_scale21
+END
+script4096
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/kdt/!svn/ver/682/trunk/CombBLAS/Applications/script4096
+END
+makefile-triton
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/kdt/!svn/ver/635/trunk/CombBLAS/Applications/makefile-triton
+END
+BetwCent.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/kdt/!svn/ver/810/trunk/CombBLAS/Applications/BetwCent.cpp
+END
+MCL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/kdt/!svn/ver/366/trunk/CombBLAS/Applications/MCL.cpp
+END
+makefile-carver
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/kdt/!svn/ver/557/trunk/CombBLAS/Applications/makefile-carver
+END
+script256
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/kdt/!svn/ver/415/trunk/CombBLAS/Applications/script256
+END
+APowers.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/kdt/!svn/ver/199/trunk/CombBLAS/Applications/APowers.cpp
+END
+makefile-lonestar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/kdt/!svn/ver/143/trunk/CombBLAS/Applications/makefile-lonestar
+END
+Graph500.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/kdt/!svn/ver/753/trunk/CombBLAS/Applications/Graph500.cpp
+END
+SpMMError.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/kdt/!svn/ver/493/trunk/CombBLAS/Applications/SpMMError.cpp
+END
+2DBFS_optimizations.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/kdt/!svn/ver/625/trunk/CombBLAS/Applications/2DBFS_optimizations.txt
+END
+makefile-mac
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/kdt/!svn/ver/417/trunk/CombBLAS/Applications/makefile-mac
+END
+script1024
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/kdt/!svn/ver/682/trunk/CombBLAS/Applications/script1024
+END
+Driver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/kdt/!svn/ver/196/trunk/CombBLAS/Applications/Driver.cpp
+END
+makefile-neumann
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/kdt/!svn/ver/941/trunk/CombBLAS/Applications/makefile-neumann
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/kdt/!svn/ver/326/trunk/CombBLAS/Applications/CMakeLists.txt
+END

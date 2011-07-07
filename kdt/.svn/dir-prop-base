@@ -1,0 +1,8 @@
+K 10
+svn:ignore
+V 30
+*.pyc
+.KDT_log
+_pyCombBLAS.so
+
+END

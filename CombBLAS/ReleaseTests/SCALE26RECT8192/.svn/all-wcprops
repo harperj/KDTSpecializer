@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/kdt/!svn/ver/177/trunk/CombBLAS/ReleaseTests/SCALE26RECT8192
+END
+cores4096_density100000.slow
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/kdt/!svn/ver/177/trunk/CombBLAS/ReleaseTests/SCALE26RECT8192/cores4096_density100000.slow
+END
+cores4096_density1
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/kdt/!svn/ver/177/trunk/CombBLAS/ReleaseTests/SCALE26RECT8192/cores4096_density1
+END
+cores4096_density10
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/kdt/!svn/ver/177/trunk/CombBLAS/ReleaseTests/SCALE26RECT8192/cores4096_density10
+END
+cores4096_density100
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/kdt/!svn/ver/177/trunk/CombBLAS/ReleaseTests/SCALE26RECT8192/cores4096_density100
+END
+cores4096_density1000
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/kdt/!svn/ver/177/trunk/CombBLAS/ReleaseTests/SCALE26RECT8192/cores4096_density1000
+END
+cores4096_density10000
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/kdt/!svn/ver/177/trunk/CombBLAS/ReleaseTests/SCALE26RECT8192/cores4096_density10000
+END
+cores4096_density100000
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/kdt/!svn/ver/177/trunk/CombBLAS/ReleaseTests/SCALE26RECT8192/cores4096_density100000
+END

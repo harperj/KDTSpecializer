@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 53
+temp_fullydistvec
+temp_fullydistspvec
+.KDT_log
+*.pyc
+
+END

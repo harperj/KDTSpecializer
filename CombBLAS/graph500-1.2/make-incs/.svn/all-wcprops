@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/make-incs
+END
+make.inc-gcc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/make-incs/make.inc-gcc
+END
+make.inc-xmt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/make-incs/make.inc-xmt
+END

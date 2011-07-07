@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/kdt/!svn/ver/942/trunk/test
+END
+note_for_kdt_developers.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/kdt/!svn/ver/631/trunk/test/note_for_kdt_developers.txt
+END
+TestDiGraph.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/kdt/!svn/ver/847/trunk/test/TestDiGraph.py
+END
+TestParVec.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/kdt/!svn/ver/861/trunk/test/TestParVec.py
+END
+TestHyGraph.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/kdt/!svn/ver/817/trunk/test/TestHyGraph.py
+END
+TestKDT.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/kdt/!svn/ver/700/trunk/test/TestKDT.py
+END
+TestSpParVec.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/kdt/!svn/ver/942/trunk/test/TestSpParVec.py
+END

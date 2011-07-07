@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/mpi
+END
+LICENSE_1_0.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/mpi/LICENSE_1_0.txt
+END
+utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/mpi/utils.c
+END
+bfs_one_sided.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/mpi/bfs_one_sided.c
+END
+bfs_simple.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/mpi/bfs_simple.c
+END
+bfs_custom.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/mpi/bfs_custom.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/mpi/main.c
+END
+find_roots.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/mpi/find_roots.c
+END
+convert_to_csr.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/mpi/convert_to_csr.c
+END
+validate.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/mpi/validate.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/mpi/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/mpi/README
+END
+common.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/kdt/!svn/ver/219/trunk/CombBLAS/graph500-1.2/mpi/common.h
+END

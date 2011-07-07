@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/kdt/!svn/ver/746/trunk/CombBLAS/ReleaseTests
+END
+FindSparse.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/kdt/!svn/ver/563/trunk/CombBLAS/ReleaseTests/FindSparse.cpp
+END
+rangerscript49
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript49
+END
+small_nonsym.mtx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/kdt/!svn/ver/553/trunk/CombBLAS/ReleaseTests/small_nonsym.mtx
+END
+rangerscript1
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript1
+END
+IndexingTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/kdt/!svn/ver/588/trunk/CombBLAS/ReleaseTests/IndexingTest.cpp
+END
+rangerscript4096
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript4096
+END
+rangerscript4
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript4
+END
+rangerscript9
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript9
+END
+IndexingTiming.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/kdt/!svn/ver/703/trunk/CombBLAS/ReleaseTests/IndexingTiming.cpp
+END
+TransposeTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/kdt/!svn/ver/143/trunk/CombBLAS/ReleaseTests/TransposeTest.cpp
+END
+rangerscript256
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript256
+END
+pathtompich2
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/kdt/!svn/ver/154/trunk/CombBLAS/ReleaseTests/pathtompich2
+END
+makefile-lonestar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/ReleaseTests/makefile-lonestar
+END
+rangerscript196
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript196
+END
+myhosts
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/kdt/!svn/ver/154/trunk/CombBLAS/ReleaseTests/myhosts
+END
+exectests
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/kdt/!svn/ver/120/trunk/CombBLAS/ReleaseTests/exectests
+END
+rangerscript16
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript16
+END
+makefile-mac
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/kdt/!svn/ver/170/trunk/CombBLAS/ReleaseTests/makefile-mac
+END
+rangerscript36
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript36
+END
+rangerscript2304
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript2304
+END
+rangerscript2025
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript2025
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/kdt/!svn/ver/227/trunk/CombBLAS/ReleaseTests/CMakeLists.txt
+END
+rangerscript2704
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript2704
+END
+VectorTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/kdt/!svn/ver/360/trunk/CombBLAS/ReleaseTests/VectorTest.cpp
+END
+rangerscript100
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript100
+END
+rangerscript1936
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript1936
+END
+rangerscript121
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript121
+END
+ReduceTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/kdt/!svn/ver/630/trunk/CombBLAS/ReleaseTests/ReduceTest.cpp
+END
+CompilerTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/kdt/!svn/ver/746/trunk/CombBLAS/ReleaseTests/CompilerTest.cpp
+END
+rangerscript441
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript441
+END
+rangerscript225
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript225
+END
+rangerscript144
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript144
+END
+rangerscript625
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript625
+END
+rangerscript841
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript841
+END
+MultTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/kdt/!svn/ver/725/trunk/CombBLAS/ReleaseTests/MultTest.cpp
+END
+rangerscript169
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript169
+END
+rangerscript1600
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript1600
+END
+rangerscript1024
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript1024
+END
+IteratorTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/kdt/!svn/ver/187/trunk/CombBLAS/ReleaseTests/IteratorTest.cpp
+END
+MultTiming.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/kdt/!svn/ver/177/trunk/CombBLAS/ReleaseTests/MultTiming.cpp
+END
+rangerscript25
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript25
+END
+makefile-neumann
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/kdt/!svn/ver/553/trunk/CombBLAS/ReleaseTests/makefile-neumann
+END
+rangerscript81
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript81
+END
+rangerscript1225
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript1225
+END
+rangerscript64
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/kdt/!svn/ver/182/trunk/CombBLAS/ReleaseTests/rangerscript64
+END

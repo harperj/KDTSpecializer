@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 28
+*.o
+*.so
+*.pyc
+*.a
+Makefile
+
+END

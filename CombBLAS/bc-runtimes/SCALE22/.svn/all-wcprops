@@ -1,0 +1,599 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22
+END
+676cores_b1024_run2.app13
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/676cores_b1024_run2.app13
+END
+289cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/289cores_b128.out
+END
+576cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/576cores_b256.out
+END
+676cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/676cores_b256.out
+END
+100cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/100cores_b512.out
+END
+121cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/121cores_b512.out
+END
+400cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/400cores_b512.out
+END
+900cores_b1024.app13
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/900cores_b1024.app13
+END
+225cores_b1024.app13
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/225cores_b1024.app13
+END
+625cores_b1024.app13
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/625cores_b1024.app13
+END
+225cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/225cores_b512.out
+END
+144cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/144cores_b512.out
+END
+361cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/361cores_b512.out
+END
+196cores_b1024.app13
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/196cores_b1024.app13
+END
+625cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/625cores_b512.out
+END
+576cores_b1024.app13
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/576cores_b1024.app13
+END
+441cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/441cores_b256.out
+END
+324cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/324cores_b256.out
+END
+289cores_b1024.app13
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/289cores_b1024.app13
+END
+529cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/529cores_b512.out
+END
+484cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/484cores_b512.out
+END
+169cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/169cores_b512.out
+END
+256cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/256cores_b128.out
+END
+729cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/729cores_b512.out
+END
+841cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/841cores_b256.out
+END
+196cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/196cores_b128.out
+END
+784cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/784cores_b512.out
+END
+1024cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/1024cores_b512.out
+END
+1024cores_b1024_run1.app13
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/1024cores_b1024_run1.app13
+END
+289cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/289cores_b256.out
+END
+36cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/36cores_b128.out
+END
+400cores_b1024.app13
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE22/400cores_b1024.app13
+END
+100cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/100cores_b128.out
+END
+121cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/121cores_b128.out
+END
+400cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/400cores_b128.out
+END
+961cores_b1024.app13
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/961cores_b1024.app13
+END
+900cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/900cores_b128.out
+END
+225cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/225cores_b128.out
+END
+144cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/144cores_b128.out
+END
+484cores_b1024.app13
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE22/484cores_b1024.app13
+END
+529cores_b1024.app13
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/529cores_b1024.app13
+END
+361cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/361cores_b128.out
+END
+625cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/625cores_b128.out
+END
+256cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/256cores_b256.out
+END
+576cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/576cores_b512.out
+END
+961cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/961cores_b128.out
+END
+676cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/676cores_b512.out
+END
+169cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/169cores_b128.out
+END
+484cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/484cores_b128.out
+END
+676cores_b1024_run1.app13
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/676cores_b1024_run1.app13
+END
+729cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/729cores_b128.out
+END
+196cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/196cores_b256.out
+END
+784cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/784cores_b128.out
+END
+1024cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/1024cores_b128.out
+END
+81cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/81cores_b128.out
+END
+64cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/64cores_b128.out
+END
+49cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/49cores_b128.out
+END
+324cores_b1024.app13
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/324cores_b1024.app13
+END
+441cores_b1024.app13
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/kdt/!svn/ver/153/trunk/CombBLAS/bc-runtimes/SCALE22/441cores_b1024.app13
+END
+100cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/100cores_b256.out
+END
+121cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/121cores_b256.out
+END
+324cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/324cores_b512.out
+END
+400cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/400cores_b256.out
+END
+441cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/441cores_b512.out
+END
+841cores_b1024.app13
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/841cores_b1024.app13
+END
+841cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/841cores_b512.out
+END
+144cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/144cores_b256.out
+END
+225cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/225cores_b256.out
+END
+900cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/900cores_b256.out
+END
+361cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/361cores_b256.out
+END
+784cores_b1024.app13
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/784cores_b1024.app13
+END
+625cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/625cores_b256.out
+END
+289cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/289cores_b512.out
+END
+576cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/576cores_b128.out
+END
+529cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/529cores_b256.out
+END
+484cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/484cores_b256.out
+END
+169cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/169cores_b256.out
+END
+961cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/961cores_b256.out
+END
+961cores_b512_run1.out
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/961cores_b512_run1.out
+END
+676cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/676cores_b128.out
+END
+961cores_b512_run2.out
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/961cores_b512_run2.out
+END
+729cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/729cores_b256.out
+END
+529cores_b128_run1.out
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/529cores_b128_run1.out
+END
+784cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/784cores_b256.out
+END
+529cores_b128_run2.out
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/529cores_b128_run2.out
+END
+1024cores_b1024_run2.app13
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/1024cores_b1024_run2.app13
+END
+1024cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/1024cores_b256.out
+END
+81cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/81cores_b256.out
+END
+64cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/64cores_b256.out
+END
+361cores_b1024.app13
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/361cores_b1024.app13
+END
+256cores_b1024.app13
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/256cores_b1024.app13
+END
+441cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/441cores_b128.out
+END
+324cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/324cores_b128.out
+END
+256cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/256cores_b512.out
+END
+729cores_b1024.app13
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/729cores_b1024.app13
+END
+900cores_b512_run1.out
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/900cores_b512_run1.out
+END
+900cores_b512_run2.out
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/kdt/!svn/ver/158/trunk/CombBLAS/bc-runtimes/SCALE22/900cores_b512_run2.out
+END
+196cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/157/trunk/CombBLAS/bc-runtimes/SCALE22/196cores_b512.out
+END
+841cores_b128.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE22/841cores_b128.out
+END

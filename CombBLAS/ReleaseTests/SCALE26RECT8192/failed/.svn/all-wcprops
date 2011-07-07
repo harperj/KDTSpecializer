@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/kdt/!svn/ver/177/trunk/CombBLAS/ReleaseTests/SCALE26RECT8192/failed
+END
+rect4096.1269002.out
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/kdt/!svn/ver/177/trunk/CombBLAS/ReleaseTests/SCALE26RECT8192/failed/rect4096.1269002.out
+END
+rect4096.1269002.err
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/kdt/!svn/ver/177/trunk/CombBLAS/ReleaseTests/SCALE26RECT8192/failed/rect4096.1269002.err
+END
+rect4096.1269004.out
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/kdt/!svn/ver/177/trunk/CombBLAS/ReleaseTests/SCALE26RECT8192/failed/rect4096.1269004.out
+END
+rect4096.1269004.err
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/kdt/!svn/ver/177/trunk/CombBLAS/ReleaseTests/SCALE26RECT8192/failed/rect4096.1269004.err
+END

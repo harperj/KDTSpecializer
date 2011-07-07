@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/kdt/!svn/ver/180/trunk/CombBLAS/BranchTrial
+END
+Friends.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/kdt/!svn/ver/180/trunk/CombBLAS/BranchTrial/Friends.h
+END
+ParFriends.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/kdt/!svn/ver/179/trunk/CombBLAS/BranchTrial/ParFriends.h
+END
+SpParMat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/kdt/!svn/ver/180/trunk/CombBLAS/BranchTrial/SpParMat.cpp
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/kdt/!svn/ver/699/trunk/test/testfiles
+END
+small_hyGraph.mtx
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/kdt/!svn/ver/699/trunk/test/testfiles/small_hyGraph.mtx
+END
+small_nonsym_fp.mtx
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/kdt/!svn/ver/620/trunk/test/testfiles/small_nonsym_fp.mtx
+END

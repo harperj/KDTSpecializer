@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/ILP
+END
+run_NBP_test2.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/ILP/run_NBP_test2.m
+END
+run_NBP_test3.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/ILP/run_NBP_test3.m
+END
+kde_prod.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/ILP/kde_prod.m
+END
+verify_kde.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/ILP/verify_kde.m
+END
+integral_ekde.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/ILP/integral_ekde.m
+END
+NBP.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/ILP/NBP.m
+END
+run_NBP_test.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/ILP/run_NBP_test.m
+END

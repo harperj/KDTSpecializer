@@ -1,0 +1,8 @@
+#PBS -S /usr/bin/tcsh 
+#PBS -q regular
+#PBS -l mppwidth=4096
+#PBS -l walltime=01:20:00
+#PBS -j eo
+#PBS -V
+cd $SCRATCH
+aprun -n 4096 ./graph500 Force 29

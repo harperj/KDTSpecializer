@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE24
+END
+484cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE24/484cores_b256.out
+END
+400cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE24/400cores_b256.out
+END
+625cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE24/625cores_b512.out
+END
+441cores_b256.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE24/441cores_b256.out
+END
+529cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE24/529cores_b512.out
+END
+576cores_b512.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/kdt/!svn/ver/160/trunk/CombBLAS/bc-runtimes/SCALE24/576cores_b512.out
+END

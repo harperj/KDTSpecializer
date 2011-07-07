@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/SS
+END
+sens_sel_gabp.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/SS/sens_sel_gabp.m
+END
+test_ss.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/SS/test_ss.m
+END
+sens_sel_approxnt.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/SS/sens_sel_approxnt.m
+END
+sens_sel_loc.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/SS/sens_sel_loc.m
+END
+sens_sel_approxnt_dist.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/SS/sens_sel_approxnt_dist.m
+END
+sens_sel_locr.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/SS/sens_sel_locr.m
+END
+aug-dec2006.mat
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/SS/aug-dec2006.mat
+END
+test_ss_abilene.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/SS/test_ss_abilene.m
+END

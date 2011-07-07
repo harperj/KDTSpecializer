@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/NUM
+END
+sparse_GBP.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/NUM/sparse_GBP.m
+END
+simple_test.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/NUM/simple_test.m
+END
+large_test.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/NUM/large_test.m
+END
+dense_pdip_solver_sparse_gabp.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/NUM/dense_pdip_solver_sparse_gabp.m
+END
+small_test_gabp.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/NUM/small_test_gabp.m
+END
+dd_solver.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/NUM/dd_solver.m
+END
+trunc_pdip_solver.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/NUM/trunc_pdip_solver.m
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/CSBP_matlab
+END
+GetSelfIndices.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/CSBP_matlab/GetSelfIndices.m
+END
+gen_phi.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/CSBP_matlab/gen_phi.m
+END
+setdiff_shri.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/CSBP_matlab/setdiff_shri.m
+END
+get_aux.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/CSBP_matlab/get_aux.m
+END
+encoder.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/CSBP_matlab/encoder.m
+END
+generatex_noisy.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/kdt/!svn/ver/906/trunk/examples/GaBP/CSBP_matlab/generatex_noisy.m
+END
