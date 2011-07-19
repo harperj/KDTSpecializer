@@ -1,0 +1,3 @@
+[submodule "asplib"]
+	path = asplib
+	url = git://github.com/shoaibkamil/asp.git
