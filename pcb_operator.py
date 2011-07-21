@@ -3,7 +3,132 @@ import asplib.asp.codegen.python_ast as ast
 import asplib.asp.codegen.cpp_ast as cpp_ast
 import asplib.asp.codegen.ast_tools as ast_tools
 import codepy.cgen
+import asplib.asp.jit.asp_module as asp_module
 
+def struct_prototype(struct):
+    return "struct %s;" % struct.tpname
+
+class IfNotDefined(cpp_ast.Generable):
+    def __init__(self, symbol):
+        self.symbol = symbol
+
+    def generate(self):
+        yield "#ifndef %s" % self.symbol
+
+class EndIf(cpp_ast.Generable):
+    def generate(self):
+        yield "#endif"
+
+class Namespace(cpp_ast.Generable):
+    def __init__(self, name, body):
+        self.name = name
+        self.body = body
+        self._fields = ['name', 'body']
+
+    def generate(self, with_semicolon=False):
+        yield 'namespace %s' % self.name
+        assert isinstance(self.body, cpp_ast.Block)
+        for line in self.body.generate(with_semicolon):
+            yield line
+
+class ConstFunctionDeclaration(cpp_ast.FunctionDeclaration):
+    def generate(self, with_semicolon=True):
+        for item in super(ConstFunctionDeclaration, self).generate(with_semicolon):
+            yield item
+        yield ' const'
+                
+class New(cpp_ast.Generable):
+    def __init__(self, typename):
+        self.typename = typename
+    def generate(self, with_semicolon=False):
+        gen_str = 'new ' + str(self.typename)
+        if with_semicolon:
+            gen_str += ';'
+            
+        yield gen_str
+
+
+class CMakeModule(object):
+    def __init__(self, temp_dir, makefile_dir, name="module", namespace=None):
+        self.name = name
+        self.preamble = []
+        self.mod_body = []
+        self.header_body = []
+        self.namespace = namespace
+        self.temp_dir = temp_dir
+        self.makefile_dir = makefile_dir
+
+    def add_to_preamble(self, pa):
+        self.preamble.extend(pa)
+
+    def add_to_module(self, body):
+        self.mod_body.extend(body)
+
+    def add_function(self, func):
+        """*func* is a :class:`cgen.FunctionBody`."""
+
+        self.mod_body.append(func)
+
+        # Want the prototype for the function added to the header.
+        self.header_body.append(func.fdecl)
+
+    def add_struct(self, struct):
+        self.mod_body.append(struct)
+
+    def generate(self):
+        source = []
+        if self.namespace is not None:
+            self.mod_body = [Namespace(self.namespace, cpp_ast.Block(self.mod_body))]
+
+        self.preamble += [cpp_ast.Include(self.temp_dir+self.name+".h", system=False), cpp_ast.Include(self.makefile_dir+"pyOperations.h", system=False)]
+        source += self.preamble + [codepy.cgen.Line()] + self.mod_body
+        return codepy.cgen.Module(source)
+
+    def generate_header(self):
+        header = []
+            
+        if self.namespace is not None:
+            self.header_body = [Namespace(self.namespace, cpp_ast.Block(self.header_body))]
+
+        header_top = [IfNotDefined(self.name+"_H"), cpp_ast.Define(self.name+"_H", "")] + [cpp_ast.Include(self.makefile_dir+"pyOperations.h", system=False)]
+        
+        header += header_top + self.header_body + [EndIf()]
+        return codepy.cgen.Module(header)
+
+    def generate_swig_interface(self):
+        interface_string = "%module " + self.name + "\n"
+        interface_string += "%{\n"
+        interface_string += str(cpp_ast.Include(self.temp_dir+self.name+".h", system=False))
+        interface_string += "\n"
+        interface_string += "%}\n"
+        interface_string += "".join([str(line) for line in self.header_body])
+        return interface_string
+
+    def compile(self):
+        from os import getcwd, chdir
+        from subprocess import call
+        original_dir = getcwd()
+        chdir(self.temp_dir)
+
+        header_file = open(self.name + ".h", 'w')
+        print >>header_file, self.generate_header()
+        header_file.close()
+
+        cpp_file = open(self.name + ".cpp", 'w')
+        print >>cpp_file, self.generate()
+        cpp_file.close()
+
+        i_file = open(self.name + ".i", 'w')
+        print >>i_file, self.generate_swig_interface()
+        i_file.close()
+
+        chdir(self.makefile_dir)
+        args = ["make", "DYNFILE="+self.temp_dir+self.name]
+        call(args)
+
+        chdir(original_dir)
+        
+        
 class PcbOperator(object):
     def __init__(self):
         # check for 'op' method
@@ -19,21 +144,22 @@ class PcbOperator(object):
         self.pure_python_op = self.op
         self.op = self.specialized_op
 
+        
     def specialized_op(self, *args):
         self.explore_ast(self.op_ast, 0)
         if self.pure_python:
             return self.pure_python_op(*args)
 
-        from asplib.asp.jit import asp_module
-        mod = asp_module.ASPModule()
+
+        mod = CMakeModule("/home/harper/Documents/Work/SEJITS/temp/", "/home/harper/Documents/Work/SEJITS/pyCombBLAS/trunk/kdt/pyCombBLAS/", namespace="op")
         
         phase2 = PcbOperator.ProcessAST().visit(self.op_ast)
         print "-- Before ConvertAST -- "
         converted = PcbOperator.ConvertAST().visit(phase2)
         print converted
-        #mod.add_function(converted.body.contents[0], 'op')
-        #print "--- Before mod.generate() ---"
-        #print mod.generate()
+        mod.add_struct(converted.contents[0])
+        mod.add_function(converted.contents[1])
+        mod.compile()
 
     class UnaryFunctionNode(ast.AST):
         def __init__(self, name, args, body):
@@ -56,7 +182,7 @@ class PcbOperator(object):
         def visit_UnaryFunctionNode(self, node):
 
             # Create the new function that does the same thing as 'op'
-            new_function_decl = self.ConstFunctionDeclaration(
+            new_function_decl = ConstFunctionDeclaration(
                 cpp_ast.Value("T", "operator()"),
                 [cpp_ast.Value("const T&", "x")])
 
@@ -75,44 +201,17 @@ class PcbOperator(object):
                 [] )
             new_constructor_body = cpp_ast.ReturnStatement(
                 cpp_ast.FunctionCall("UnaryFunction", [
-                        self.New("my_op_s<doubleint>()")])
+                        New("my_op_s<doubleint>()")])
                 )
             new_constructor_function = cpp_ast.FunctionBody(new_constructor_decl, cpp_ast.Block([new_constructor_body]))
             
-            # Building the block for  namespace "op"
-            ns_block = cpp_ast.Block()
-            ns_block.append(operator_struct)
-            ns_block.append(new_constructor_function)
-            op_namespace = self.Namespace("op", ns_block)
+            # Block for the module contents.
+            main_block = cpp_ast.Block()
+            main_block.append(operator_struct)
+            main_block.append(new_constructor_function)
 
-            return op_namespace
+            return main_block
             
-        class Namespace(cpp_ast.Generable):
-            def __init__(self, name, body):
-                self.name = name
-                self.body = body
-                self._fields = ['name', 'body']
-
-            def generate(self, with_semicolon=False):
-                yield 'namespace %s' % self.name
-                assert isinstance(self.body, cpp_ast.Block)
-                for line in self.body.generate(with_semicolon):
-                    yield line
-        class ConstFunctionDeclaration(cpp_ast.FunctionDeclaration):
-            def generate(self, with_semicolon=True):
-                for item in super(PcbOperator.ConvertAST.ConstFunctionDeclaration, self).generate(with_semicolon):
-                    yield item
-                yield ' const'
-
-        class New(cpp_ast.Generable):
-            def __init__(self, typename):
-                self.typename = typename
-            def generate(self, with_semicolon=False):
-                gen_str = 'new ' + str(self.typename)
-                if with_semicolon:
-                    gen_str += ';'
-
-                yield gen_str
 
 
     def explore_ast(self, node, depth):

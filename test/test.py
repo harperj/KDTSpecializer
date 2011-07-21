@@ -8,8 +8,9 @@ print "before Apply:"
 d.printall()
 
 time1 = time.time()
+print pcb.abs()
 for i in xrange(1000000):
-    d.Apply(pcb.abs())
+    d.Apply(pcb.my_op())
 time2 = time.time()
 
 print "Builtin Time: ", (time2-time1)
@@ -30,11 +31,11 @@ def pyabs(x):
     return x
 
 op = pcb.unary(pyabs)
-
+print op
 
 # We want this to be fast:
 time1 = time.time()
-for i in xrange(1000000):
+for i in xrange(1):
     d.Apply(op)
 time2 = time.time()
 

@@ -1,3 +1,5 @@
+#include <boost/python.hpp>
+
 namespace op
 {
 
@@ -14,4 +16,9 @@ namespace op
   {
     return UnaryFunction(new my_function_s<doubleint>());
   }
+}
+
+BOOST_PYTHON_MODULE(module)
+{
+  boost::python::def("step", &op::step);
 }
