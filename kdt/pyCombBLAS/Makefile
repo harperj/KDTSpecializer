@@ -12,7 +12,7 @@ COMPILER = mpicxx
 FLAGS = $(OPT) -fPIC
 
 ifdef DYNFILE
-SWIGDYN = -ltest.i
+SWIGDYN = -l$(DYNFILE).i
 DYNOBJ = $(DYNFILE).o
 DYNCPP = $(DYNFILE).cpp
 DYNH = $(DYNFILE).h

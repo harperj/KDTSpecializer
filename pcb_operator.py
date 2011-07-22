@@ -49,7 +49,7 @@ class New(cpp_ast.Generable):
 
 
 class CMakeModule(object):
-    def __init__(self, temp_dir, makefile_dir, name="module", namespace=None):
+    def __init__(self, temp_dir, makefile_dir, name="module", namespace=None, include_files=[]):
         self.name = name
         self.preamble = []
         self.mod_body = []
@@ -57,6 +57,10 @@ class CMakeModule(object):
         self.namespace = namespace
         self.temp_dir = temp_dir
         self.makefile_dir = makefile_dir
+        self.include_files = include_files
+
+    def include_file(self, filepath):
+        self.include_files.append(filepath)
 
     def add_to_preamble(self, pa):
         self.preamble.extend(pa)
@@ -80,7 +84,10 @@ class CMakeModule(object):
         if self.namespace is not None:
             self.mod_body = [Namespace(self.namespace, cpp_ast.Block(self.mod_body))]
 
-        self.preamble += [cpp_ast.Include(self.temp_dir+self.name+".h", system=False), cpp_ast.Include(self.makefile_dir+"pyOperations.h", system=False)]
+        self.preamble += [cpp_ast.Include(self.temp_dir+self.name+".h", system=False)]
+        for include in self.include_files:
+            self.preamble += [cpp_ast.Include(include, system=False)]
+        
         source += self.preamble + [codepy.cgen.Line()] + self.mod_body
         return codepy.cgen.Module(source)
 
@@ -90,7 +97,9 @@ class CMakeModule(object):
         if self.namespace is not None:
             self.header_body = [Namespace(self.namespace, cpp_ast.Block(self.header_body))]
 
-        header_top = [IfNotDefined(self.name+"_H"), cpp_ast.Define(self.name+"_H", "")] + [cpp_ast.Include(self.makefile_dir+"pyOperations.h", system=False)]
+        header_top = [IfNotDefined(self.name+"_H"), cpp_ast.Define(self.name+"_H", "")]
+        for include in self.include_files:
+            header_top += [cpp_ast.Include(include, system=False)]
         
         header += header_top + self.header_body + [EndIf()]
         return codepy.cgen.Module(header)
@@ -150,8 +159,10 @@ class PcbOperator(object):
         if self.pure_python:
             return self.pure_python_op(*args)
 
-
-        mod = CMakeModule("/home/harper/Documents/Work/SEJITS/temp/", "/home/harper/Documents/Work/SEJITS/pyCombBLAS/trunk/kdt/pyCombBLAS/", namespace="op")
+        temp_path = "/home/harper/Documents/Work/SEJITS/temp/"
+        makefile_path = "/home/harper/Documents/Work/SEJITS/pyCombBLAS/trunk/kdt/pyCombBLAS"
+        include_files = ["/home/harper/Documents/Work/SEJITS/pyCombBLAS/trunk/kdt/pyCombBLAS/pyOperations.h"]
+        mod = CMakeModule(temp_path, makefile_path, namespace="op", include_files=include_files)
         
         phase2 = PcbOperator.ProcessAST().visit(self.op_ast)
         print "-- Before ConvertAST -- "
