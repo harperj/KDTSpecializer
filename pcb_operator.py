@@ -4,6 +4,7 @@ import asplib.asp.codegen.cpp_ast as cpp_ast
 import asplib.asp.codegen.ast_tools as ast_tools
 import codepy.cgen
 import asplib.asp.jit.asp_module as asp_module
+from collections import namedtuple
 
 def struct_prototype(struct):
     return "struct %s;" % struct.tpname
@@ -46,8 +47,7 @@ class New(cpp_ast.Generable):
             gen_str += ';'
             
         yield gen_str
-
-
+        
 class CMakeModule(object):
     def __init__(self, temp_dir, makefile_dir, name="module", namespace=None, include_files=[]):
         self.name = name
@@ -136,42 +136,40 @@ class CMakeModule(object):
         call(args)
 
         chdir(original_dir)
-        
-        
+
+class Operator(object):
+    def __init__(self, name, assoc=None, comm=None, src=None, ast=None):
+        self.name = name
+        self.src = src
+        self.ast = ast
+        self.assoc = assoc
+        self.comm = comm
+
 class PcbOperator(object):
-    def __init__(self):
+    def __init__(self, operators):
         # check for 'op' method
-        try:
-            dir(self).index('op')
-        except ValueError:
-            raise Exception('No op method defined.')
-
-
-        self.op_src = inspect.getsource(self.op)
-        self.op_ast = ast.parse(self.op_src.lstrip())
-        self.pure_python = False
-        self.pure_python_op = self.op
-        self.op = self.specialized_op
-
-        
-    def specialized_op(self, *args):
-        self.explore_ast(self.op_ast, 0)
-        if self.pure_python:
-            return self.pure_python_op(*args)
-
+        self.operators = operators
         temp_path = "/home/harper/Documents/Work/SEJITS/temp/"
         makefile_path = "/home/harper/Documents/Work/SEJITS/pyCombBLAS/trunk/kdt/pyCombBLAS"
         include_files = ["/home/harper/Documents/Work/SEJITS/pyCombBLAS/trunk/kdt/pyCombBLAS/pyOperations.h"]
         mod = CMakeModule(temp_path, makefile_path, namespace="op", include_files=include_files)
         
-        phase2 = PcbOperator.ProcessAST().visit(self.op_ast)
-        print "-- Before ConvertAST -- "
-        converted = PcbOperator.ConvertAST().visit(phase2)
-        print converted
-        mod.add_struct(converted.contents[0])
-        mod.add_function(converted.contents[1])
+        for operator in self.operators:
+            try:
+                dir(self).index(operator.name)
+            except ValueError:
+                raise Exception('No %s method defined.' % operator.name)
+
+            operator.src = inspect.getsource(getattr(self, operator.name))
+            operator.ast = ast.parse(operator.src.lstrip())
+            phase2 = PcbOperator.ProcessAST(operator).visit(operator.ast)
+            converted = PcbOperator.ConvertAST().visit(phase2)
+            mod.add_struct(converted.contents[0])
+            mod.add_function(converted.contents[1])
+
         mod.compile()
 
+        
     class UnaryFunctionNode(ast.AST):
         def __init__(self, name, args, body):
             self.name = name
@@ -179,15 +177,32 @@ class PcbOperator(object):
             self.body = body
             self._fields = ['name', 'args', 'body']
             super(PcbOperator.UnaryFunctionNode, self).__init__()
+
+    class BinaryFunctionNode(ast.AST):
+        def __init__(self, name, args, body, assoc, comm):
+            self.name = name
+            self.args = args
+            self.body = body
+            self.assoc = assoc
+            self.comm = comm
+            self._fields = ['name', 'args', 'body']
+            super(PcbOperator.BinaryFunctionNode, self).__init__()
         
     class ProcessAST(ast_tools.NodeTransformer):
+        def __init__(self, operator):
+            self.operator = operator
+            super(PcbOperator.ProcessAST, self).__init__()
+            
         def visit_FunctionDef(self, node):
-            if node.name == "op":
-                print "Found op, time to replace"
+            print node.args.args[0].id
+            if len(node.args.args) == 1:
                 new_node = PcbOperator.UnaryFunctionNode(node.name, node.args, node.body)
-                return new_node
+            elif len(node.args.args) == 2:
+                new_node = PcbOperator.BinaryFunctionNode(node.name, node.args, node.body,
+                                                          self.operator.assoc, self.operator.comm)
             else:
                 return node
+            return new_node
             
     class ConvertAST(ast_tools.ConvertAST):
         def visit_UnaryFunctionNode(self, node):
@@ -195,7 +210,7 @@ class PcbOperator(object):
             # Create the new function that does the same thing as 'op'
             new_function_decl = ConstFunctionDeclaration(
                 cpp_ast.Value("T", "operator()"),
-                [cpp_ast.Value("const T&", "x")])
+                [cpp_ast.Value("const T&", node.args.args[0].id)])
 
             # Add all of the contends of the old function to the new
             new_function_contents = cpp_ast.Block([self.visit(subnode) for subnode in node.body])
@@ -203,16 +218,16 @@ class PcbOperator(object):
             new_function_body = cpp_ast.FunctionBody(new_function_decl, new_function_contents)
             operator_struct = cpp_ast.Template(
                 "typename T",
-                cpp_ast.Struct("my_op_s : public ConcreteUnaryFunction<T>", [new_function_body])
+                cpp_ast.Struct(node.name+"_s : public ConcreteUnaryFunction<T>", [new_function_body])
                 )
 
             # Finally, generate a function for constructing one of these operators
             new_constructor_decl = cpp_ast.FunctionDeclaration(
-                cpp_ast.Value("UnaryFunction", "my_op"),
+                cpp_ast.Value("UnaryFunction", node.name),
                 [] )
             new_constructor_body = cpp_ast.ReturnStatement(
                 cpp_ast.FunctionCall("UnaryFunction", [
-                        New("my_op_s<doubleint>()")])
+                        New(node.name+"_s<doubleint>()")])
                 )
             new_constructor_function = cpp_ast.FunctionBody(new_constructor_decl, cpp_ast.Block([new_constructor_body]))
             
@@ -222,7 +237,39 @@ class PcbOperator(object):
             main_block.append(new_constructor_function)
 
             return main_block
+
+        def visit_BinaryFunctionNode(self, node):
+            # Create the new function that does the same thing as 'op'
+            new_function_decl = ConstFunctionDeclaration(
+                cpp_ast.Value("T", "operator()"),
+                [cpp_ast.Value("const T&", node.args.args[0].id),
+                 cpp_ast.Value("const T&", node.args.args[1].id)])
+
+            # Add all of the contends of the old function to the new
+            new_function_contents = cpp_ast.Block([self.visit(subnode) for subnode in node.body])
+
+            new_function_body = cpp_ast.FunctionBody(new_function_decl, new_function_contents)
+            operator_struct = cpp_ast.Template(
+                "typename T",
+                cpp_ast.Struct(node.name+"_s : public ConcreteBinaryFunction<T>", [new_function_body])
+                )
+
+            # Finally, generate a function for constructing one of these operators
+            new_constructor_decl = cpp_ast.FunctionDeclaration(
+                cpp_ast.Value("BinaryFunction", node.name),
+                [] )
+            new_constructor_body = cpp_ast.ReturnStatement(
+                cpp_ast.FunctionCall("BinaryFunction", [
+                        New(node.name+"_s<doubleint>()"),
+                        str(node.assoc).lower(), str(node.comm).lower()])
+                )
+            new_constructor_function = cpp_ast.FunctionBody(new_constructor_decl, cpp_ast.Block([new_constructor_body]))
             
+            # Block for the module contents.
+            main_block = cpp_ast.Block()
+            main_block.append(operator_struct)
+            main_block.append(new_constructor_function)
+            return main_block
 
 
     def explore_ast(self, node, depth):
