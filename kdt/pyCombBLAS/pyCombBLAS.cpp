@@ -32,6 +32,11 @@ void EWiseMult_inplacefirst(pySpParVec& a, const pyDenseParVec& b, bool exclude,
 	a.v = EWiseMult(a.v, b.v, exclude, doubleint(zero));
 }
 
+pySpParVec EWiseApply(const pySpParVec& a, const pyDenseParVec& b, op::BinaryFunction *f, double zero)
+{
+  return pySpParVec(EWiseApply(a.v, b.v, *f, doubleint(zero)));
+}
+
 EWiseArg EWise_Index()
 {
 	EWiseArg ret;

@@ -19,7 +19,8 @@ protected:
 	friend class pySpParMatBool;
 	friend pySpParVec EWiseMult(const pySpParVec& a, const pyDenseParVec& b, bool exclude, double zero);
 	friend void EWiseMult_inplacefirst(pySpParVec& a, const pyDenseParVec& b, bool exclude, double zero);
-
+        friend pySpParVec EWiseApply(const pySpParVec& a, const pyDenseParVec& b, op::BinaryFunction *f, double zero);
+        
 	pyDenseParVec();
 	pyDenseParVec(VectType other);
 /////////////// everything below this appears in python interface:

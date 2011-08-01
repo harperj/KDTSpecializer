@@ -2029,6 +2029,58 @@ FullyDistSpVec<IU,typename promote_trait<NU1,NU2>::T_promote> EWiseMult
 	}
 }
 
+template <typename IU, typename NU1, typename NU2, typename _BinaryOperation>
+FullyDistSpVec<IU,typename promote_trait<NU1,NU2>::T_promote> EWiseApply 
+	(const FullyDistSpVec<IU,NU1> & V, const FullyDistVec<IU,NU2> & W , _BinaryOperation _binary_op, typename promote_trait<NU1,NU2>::T_promote zero)
+{
+  typedef typename promote_trait<NU1,NU2>::T_promote T_promote;
+  
+  if(*(V.commGrid) == *(W.commGrid))	
+    {
+      //V.zero = zero;
+      //W.zero = zero;
+      FullyDistSpVec< IU, T_promote> Product(V.commGrid);
+      Product.zero = zero;
+      FullyDistVec< IU, NU1> DV (V);
+      if(V.glen != W.glen)
+        {
+          cerr << "Vector dimensions don't match for EWiseMult\n";
+          MPI::COMM_WORLD.Abort(DIMMISMATCH);
+        }
+      else
+        {
+          Product.glen = V.glen;
+          Product.zero = zero;
+          IU size= W.LocArrSize();
+          IU sp_iter = 0;
+          for(IU i=0; i<size; ++i)
+            {
+              T_promote pro;
+              if(V.ind[sp_iter] == i)
+                {
+                  pro = _binary_op(V.num[i], W.arr[i]);
+                  sp_iter++;
+                }
+              else
+                {
+                  pro = _binary_op(zero, W.arr[i]);
+                }
+              if ( pro != zero) 	// keep only those
+                {
+                  Product.ind.push_back(i);
+                  Product.num.push_back(pro);
+                }
+            }
+        }
+      return Product;
+    }
+  else
+    {
+      cout << "Grids are not comparable elementwise multiplication" << endl; 
+      MPI::COMM_WORLD.Abort(GRIDMISMATCH);
+      return FullyDistSpVec< IU,T_promote>();
+    }
+}
 
 
 #endif

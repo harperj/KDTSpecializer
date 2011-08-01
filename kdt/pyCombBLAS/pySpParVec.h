@@ -20,6 +20,7 @@ protected:
 	friend pySpParVec EWiseMult(const pySpParVec& a, const pySpParVec& b, bool exclude);
 	friend pySpParVec EWiseMult(const pySpParVec& a, const pyDenseParVec& b, bool exclude, double zero);
 	friend void EWiseMult_inplacefirst(pySpParVec& a, const pyDenseParVec& b, bool exclude, double zero);
+        friend pySpParVec EWiseApply(const pySpParVec& a, const pyDenseParVec& b, op::BinaryFunction *f, double zero);
 
 	pySpParVec(); // used for initializing temporaries to be returned
 	pySpParVec(VectType other);

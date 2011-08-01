@@ -128,6 +128,7 @@ class BinaryFunction {
 BinaryFunction plus();
 BinaryFunction minus();
 BinaryFunction multiplies();
+ BinaryFunction gmultiplies();
 BinaryFunction divides();
 BinaryFunction modulus();
 BinaryFunction fmod();

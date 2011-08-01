@@ -1006,8 +1006,11 @@ class DiGraph(gr.Graph):
 		while fringe.getnee() > 0:
 			fringe.setNumToInd()
 			self._spm.SpMV_SelMax_inplace(fringe)
-			pcb.EWiseMult_inplacefirst(fringe, parents, True, -1)
-			parents[fringe] = 0
+
+                        #pcb.EWiseMult_inplacefirst(fringe, parents, True, -1)
+                        fringe = pcb.EWiseApply(fringe, parents, pcb.gmultiplies(), -1)
+
+                        parents[fringe] = 0
 			parents += fringe
 		if not sym:
 			self._T()

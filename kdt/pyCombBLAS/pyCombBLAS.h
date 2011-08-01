@@ -92,6 +92,7 @@ class EWiseArg
 	EWiseArg(): dptr(NULL), sptr(NULL), type(SPARSE) {}
 };
 
+pySpParVec EWiseApply(const pySpParVec& a, const pyDenseParVec& b, op::BinaryFunction *f, double zero);
 EWiseArg EWise_Index();
 EWiseArg EWise_OnlyNZ(pySpParVec* v);
 EWiseArg EWise_OnlyNZ(pyDenseParVec* v); // shouldn't be used, but here for completeness
