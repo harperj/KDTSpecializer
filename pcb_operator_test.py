@@ -6,7 +6,9 @@ class MyOperator (PcbOperator):
     def test_op(x):
         return x
     def bin_op(x, y):
-        return x*y
+        if y == -1:
+            return x
+        return -1
     
 my_var = 3
 MyOperator(

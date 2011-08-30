@@ -1004,14 +1004,22 @@ class DiGraph(gr.Graph):
 		parents[root] = root
 		fringe[root] = root
 		while fringe.getnee() > 0:
-			fringe.setNumToInd()
+			#fringe.setNumToInd()
 			self._spm.SpMV_SelMax_inplace(fringe)
-
+                        def iterop(vals):
+				if (vals[1] == -1):
+					vals[1] = vals[0]
+                                        vals[0] = vals[2]
+                                else:
+                                        vals[0] = None
+                        
+                        binop = pcb.gmultiplies()
                         #pcb.EWiseMult_inplacefirst(fringe, parents, True, -1)
-                        fringe = pcb.EWiseApply(fringe, parents, pcb.gmultiplies(), -1)
-
+                        #fringe = pcb.EWiseApply(fringe, parents, binop, -1)
+                        pcb.EWise(iterop, [pcb.EWise_OnlyNZ(fringe), parents, pcb.EWise_Index()])                        
                         parents[fringe] = 0
 			parents += fringe
+                        fringe.__del__()
 		if not sym:
 			self._T()
 		return ParVec.toParVec(parents)

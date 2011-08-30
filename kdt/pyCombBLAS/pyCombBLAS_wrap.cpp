@@ -3143,6 +3143,9 @@ SWIG_FromCharPtr(const char *cptr)
   return SWIG_FromCharPtrAndSize(cptr, (cptr ? strlen(cptr) : 0));
 }
 
+
+#include "/home/harper/Documents/Work/SEJITS/temp/module.h"
+
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -16612,6 +16615,75 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_my_op(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  SwigValueWrapper< op::UnaryFunction > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)":my_op")) SWIG_fail;
+  {
+    try {
+      result = op::my_op();
+    } catch(string& stringReason) {
+      const char* sData = (char*)stringReason.c_str();
+      SWIG_exception(SWIG_RuntimeError,sData);
+      SWIG_exception(SWIG_IndexError,sData);
+    } catch(...) {
+      SWIG_exception(SWIG_RuntimeError,"Unknown exception");
+    }
+  }
+  resultobj = SWIG_NewPointerObj((new op::UnaryFunction(static_cast< const op::UnaryFunction& >(result))), SWIGTYPE_p_op__UnaryFunction, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_test_op(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  SwigValueWrapper< op::UnaryFunction > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)":test_op")) SWIG_fail;
+  {
+    try {
+      result = op::test_op();
+    } catch(string& stringReason) {
+      const char* sData = (char*)stringReason.c_str();
+      SWIG_exception(SWIG_RuntimeError,sData);
+      SWIG_exception(SWIG_IndexError,sData);
+    } catch(...) {
+      SWIG_exception(SWIG_RuntimeError,"Unknown exception");
+    }
+  }
+  resultobj = SWIG_NewPointerObj((new op::UnaryFunction(static_cast< const op::UnaryFunction& >(result))), SWIGTYPE_p_op__UnaryFunction, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_bin_op(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  SwigValueWrapper< op::BinaryFunction > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)":bin_op")) SWIG_fail;
+  {
+    try {
+      result = op::bin_op();
+    } catch(string& stringReason) {
+      const char* sData = (char*)stringReason.c_str();
+      SWIG_exception(SWIG_RuntimeError,sData);
+      SWIG_exception(SWIG_IndexError,sData);
+    } catch(...) {
+      SWIG_exception(SWIG_RuntimeError,"Unknown exception");
+    }
+  }
+  resultobj = SWIG_NewPointerObj((new op::BinaryFunction(static_cast< const op::BinaryFunction& >(result))), SWIGTYPE_p_op__BinaryFunction, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 static PyMethodDef SwigMethods[] = {
 	 { (char *)"SWIG_PyInstanceMethod_New", (PyCFunction)SWIG_PyInstanceMethod_New, METH_O, NULL},
 	 { (char *)"new_pySpParMat", _wrap_new_pySpParMat, METH_VARARGS, NULL},
@@ -16835,6 +16907,9 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"EWise_OnlyNZ", _wrap_EWise_OnlyNZ, METH_VARARGS, NULL},
 	 { (char *)"EWise", _wrap_EWise, METH_VARARGS, NULL},
 	 { (char *)"Graph500VectorOps", _wrap_Graph500VectorOps, METH_VARARGS, NULL},
+	 { (char *)"my_op", _wrap_my_op, METH_VARARGS, NULL},
+	 { (char *)"test_op", _wrap_test_op, METH_VARARGS, NULL},
+	 { (char *)"bin_op", _wrap_bin_op, METH_VARARGS, NULL},
 	 { NULL, NULL, 0, NULL }
 };
 

@@ -6,10 +6,12 @@ import codepy.cgen
 import asplib.asp.jit.asp_module as asp_module
 from collections import namedtuple
 
-def struct_prototype(struct):
-    return "struct %s;" % struct.tpname
 
 class IfNotDefined(cpp_ast.Generable):
+    """
+    A generable AST node for the 'if not defined' (#ifndef) directive.
+    Accepts argument 'symbol', the token to check for defined status.
+    """
     def __init__(self, symbol):
         self.symbol = symbol
 
@@ -17,10 +19,20 @@ class IfNotDefined(cpp_ast.Generable):
         yield "#ifndef %s" % self.symbol
 
 class EndIf(cpp_ast.Generable):
+    """
+    A generable AST node for the 'end if' (#endif) directive.
+    """
     def generate(self):
         yield "#endif"
 
 class Namespace(cpp_ast.Generable):
+    """
+    A generable AST node representing a namespace.
+    Accepts arguments
+    'name', the namespace name, and
+    'body', a cpp_ast.Block containing the body of the namespace.
+    """
+    
     def __init__(self, name, body):
         self.name = name
         self.body = body
@@ -33,12 +45,20 @@ class Namespace(cpp_ast.Generable):
             yield line
 
 class ConstFunctionDeclaration(cpp_ast.FunctionDeclaration):
+    """
+    Simply subclasses cpp_ast.FunctionDeclaration to add make it constant.
+    Implementation of this might be better moved into FunctionDeclaration.
+    """
     def generate(self, with_semicolon=True):
         for item in super(ConstFunctionDeclaration, self).generate(with_semicolon):
             yield item
         yield ' const'
                 
 class New(cpp_ast.Generable):
+    """
+    Generable AST node for a statement allocating new memory.
+    Accepts 'typename', name of associated type.
+    """
     def __init__(self, typename):
         self.typename = typename
     def generate(self, with_semicolon=False):
@@ -49,6 +69,20 @@ class New(cpp_ast.Generable):
         yield gen_str
         
 class CMakeModule(object):
+    """
+    This module is a (still somewhat hacky) mimic of the style of CodePy's Boost
+    Python module in order to add support for including ASP-generated code in
+    projects which use GNU make for a build system.
+    Note that the compile() member method is specific to the pyCombBLAS project
+    makefile that accepts a DYNFILE= command line argument, the filename of a
+    dynamically generated file.
+    Arguments:
+    temp_dir - Directory to store dynamically generated cpp, header, and SWIG interface files.
+    makefile_dir - Directory of the makefile.
+    name - A name given to the generated files.
+    namespace - A namespace to include all code generated in.
+    include_files - A list of files to #include at the top of the header and cpp files.
+    """
     def __init__(self, temp_dir, makefile_dir, name="module", namespace=None, include_files=[]):
         self.name = name
         self.preamble = []
@@ -138,6 +172,10 @@ class CMakeModule(object):
         chdir(original_dir)
 
 class Operator(object):
+    """
+    Class to represent the data associated with an operator.
+    Used a class because empty fields are nicer than with NamedTuple.
+    """
     def __init__(self, name, assoc=None, comm=None, src=None, ast=None):
         self.name = name
         self.src = src
@@ -193,6 +231,10 @@ class PcbOperator(object):
             self.operator = operator
             super(PcbOperator.ProcessAST, self).__init__()
             
+        def visit_Number(self, node):
+            new_node = cpp_ast.FunctionCall("doubleint", [node])
+            return new_node
+        
         def visit_FunctionDef(self, node):
             print node.args.args[0].id
             if len(node.args.args) == 1:
@@ -205,6 +247,11 @@ class PcbOperator(object):
             return new_node
             
     class ConvertAST(ast_tools.ConvertAST):
+        def visit_Num(self, node):
+            """If we find a number, want to convert it to a doubleint for PCB."""
+            print dir(node)
+            return cpp_ast.FunctionCall("doubleint", [node.n])
+
         def visit_UnaryFunctionNode(self, node):
 
             # Create the new function that does the same thing as 'op'
