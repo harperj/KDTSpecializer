@@ -972,7 +972,7 @@ class DiGraph(gr.Graph):
 	#	each vertex in the tree; unreached vertices have parent == -1.
 	#	sym arg denotes whether graph is symmetric; if not, need to transpose
 	#
-	def bfsTree(self, root, sym=False):
+	def bfsTree(self, root, sym=False, optype=0):
 		"""
 		calculates a breadth-first search tree from the edges in the
 		passed DiGraph, starting from the root vertex.  "Breadth-first"
@@ -987,6 +987,8 @@ class DiGraph(gr.Graph):
 			    companion edge from j to i).  If the DiGraph is 
 			    symmetric, the operation is faster.  The default is 
 			    False.
+                        optype: Type of operator.  0 for hand-written C++, 1 for
+                              pure Python operator, and 2 for KDT specializer
 
 		Input Arguments:
 			parents:  a ParVec instance of length equal to the number
@@ -1004,8 +1006,10 @@ class DiGraph(gr.Graph):
 		parents[root] = root
 		fringe[root] = root
 		while fringe.getnee() > 0:
-			#fringe.setNumToInd()
-			self._spm.SpMV_SelMax_inplace(fringe)
+			if optype != 1:
+                                fringe.setNumToInd()
+
+                        self._spm.SpMV_SelMax_inplace(fringe)
                         def iterop(vals):
 				if (vals[1] == -1):
 					vals[1] = vals[0]
@@ -1013,10 +1017,13 @@ class DiGraph(gr.Graph):
                                 else:
                                         vals[0] = None
                         
-                        binop = pcb.gmultiplies()
-                        #pcb.EWiseMult_inplacefirst(fringe, parents, True, -1)
-                        #fringe = pcb.EWiseApply(fringe, parents, binop, -1)
-                        pcb.EWise(iterop, [pcb.EWise_OnlyNZ(fringe), parents, pcb.EWise_Index()])                        
+                        binop = pcb.bin_op()
+                        if optype == 0:
+                                pcb.EWiseMult_inplacefirst(fringe, parents, True, -1)
+                        if optype == 2:
+                                fringe = pcb.EWiseApply(fringe, parents, binop, -1)
+                        if optype == 1:
+                                pcb.EWise(iterop, [pcb.EWise_OnlyNZ(fringe), parents, pcb.EWise_Index()])                        
                         parents[fringe] = 0
 			parents += fringe
                         fringe.__del__()
